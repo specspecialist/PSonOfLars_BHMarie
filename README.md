@@ -6,7 +6,7 @@ simple to use.
 
 Can be found on telegram as [reulerohbot](https://t.me/rulerohbot).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SpEcHiDe/PSonOfLars_BHMarie)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/specspecialist/PSonOfLars_BHMarie.git)
 Alternatively, [find me on telegram](https://t.me/)! (Keep all support questions in the support chat, where more people can help you.)
 
 ## Starting the bot.
