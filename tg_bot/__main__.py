@@ -37,7 +37,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](https://telegram.dog/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my cloner](https://telegram.dog/WMR_NANDU) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!"""
 
@@ -134,7 +134,7 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
                 # PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                "no one gonna help you 🤣🤣🤣🤣",
+                "https://t.me/poochASANYASI/3 🤣🤣🤣🤣",
                 parse_mode=ParseMode.MARKDOWN)
     else:
         update.effective_message.reply_text("no one gonna help you 🤣🤣🤣🤣")
